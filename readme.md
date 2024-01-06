@@ -7,3 +7,8 @@
 5. create account
 6. drag and drop the `developer-portfolio.fig`
 7. Enjoy !!! 
+
+
+# display flex
+- go to google
+- use the trick
