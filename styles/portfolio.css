@@ -195,5 +195,16 @@ footer{
 
 .footer-column{
     width: 50%;
-    justify-content: left;
+    justify-content: center;
+}
+
+.contact input[type="email"], .contact input[type="text"], textarea {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    border: 0;
+    width: 100%;
+    background-color: white;
 }
