@@ -1,68 +1,47 @@
-*{
-    margin: 0;
-}
-
-body{
+/* common shared styles */
+body {
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Lato', sans-serif;
 }
 
-nav{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding-top: 51px;
-}
-
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.text-primary{
+.orange {
     color: #FD6E0A;
 }
 
-.button-primary{
-    background: #FD6E0A;
-    color: #FFF;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    padding: 18px 35px 19px 36px;
-    border: 0;
+.btn-primary {
     border-radius: 5px;
-    }
+    background: #FD6E0A;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    color: #fff;
+    padding: 18px 35px;
+}
 
-nav > ul{
+
+/* nav related style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    color: var(--Dark-01, #181818);
+    font-size: 45px;
+    font-weight: 800;
+}
+
+nav > ul {
     display: flex;
     align-items: center;
 }
 
-nav li{
+nav li {
     list-style: none;
-    margin-right: 51px;
+    margin-right: 50px;
 }
 
-nav a{
+nav a {
     text-decoration: none;
     color: #474747;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-}
-
-.header{
-    background-color: #FFF8F3;
-}
-
-.banner{
-    padding: 13vw;
-}
-
-.banner h3, .banner h1, .banner p{
-    margin: 20px;
 }
